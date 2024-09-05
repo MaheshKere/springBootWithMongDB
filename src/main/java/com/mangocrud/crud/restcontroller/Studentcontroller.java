@@ -1,6 +1,5 @@
 package com.mangocrud.crud.restcontroller;
 
-import com.mangocrud.crud.pojo.Book;
 import com.mangocrud.crud.pojo.Student;
 import com.mangocrud.crud.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
