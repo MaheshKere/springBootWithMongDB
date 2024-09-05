@@ -2,7 +2,6 @@ package com.mangocrud.crud.restcontroller;
 
 import com.mangocrud.crud.pojo.Book;
 import com.mangocrud.crud.pojo.Student;
-import com.mangocrud.crud.pojo.User;
 import com.mangocrud.crud.repository.BookRepository;
 import com.mangocrud.crud.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,6 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.data.mongodb.core.query.UpdateDefinition;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
