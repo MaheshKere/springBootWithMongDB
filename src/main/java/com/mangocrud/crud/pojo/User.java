@@ -4,6 +4,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.annotation.Id;
 @Document
 public class User {
+
+    //remove this class
     @Id
     private String userId;
     private String name;
